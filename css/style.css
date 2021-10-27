@@ -304,6 +304,17 @@ footer{
 	z-index: 3;
 
 }
+.about__body::before{
+	content: '';
+	/* display: inline-block; */
+	width: 580px;
+	height: 474px;
+	background: url(../img/Blob.png) 0 0 no-repeat;
+	position: absolute;
+	bottom: -26px;
+	left: -17px;
+	/* z-index: 3;*/
+}
 .about__title {
 	margin: 0px 0px 33px 0px;
 }
@@ -345,16 +356,17 @@ footer{
 	margin: 0px 0px 50px 0px;
 }
 .about__img {
-	position: relative;
+	/* position: relative; */
 
 }
 .image-dog {
 	margin: 0px 0px -120px 0px;
 	position: relative;
 	z-index: 2;
+	border-radius: 40px;
 }
 .image-blob {
-	position: absolute;
+	/* position: absolute;
 	top: -445px;
-	left: -100px;
+	left: -100px; */
 }
